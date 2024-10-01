@@ -1,11 +1,25 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web Component </title>
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/theme-toggle.css">
 </head>
-<body>
-    
+
+
+<image-carousel>
+    <div class="carousel-slide" style="background-image: url('/assets/book1.jpg');" data-url="#"></div>
+    <div class="carousel-slide" style="background-image: url('/assets/book2.jpg');" data-url="#"></div>
+    <div class="carousel-slide" style="background-image: url('/assets/book3.jpg');" data-url="#"></div>
+</image-carousel>
+
+<theme-toggle></theme-toggle>
+
+<script src="js/carousel.js"></script>
+<script type="module" src="js/theme-toggle.js"></script>
+
 </body>
 </html>
